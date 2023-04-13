@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="css/1_celectors.css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="info">
+			<img class="avatar" src="images/avatar.jpeg" alt="Нет фотографии" />
+			<div class="info-text">
+				<h1>Ленковец Егор</h1>
+				<p>Я люблю путешествовать на машине</p>
+			</div>
+		</div>
+
+		<div class="contact">
+			<h2>Контакты</h2>
+			<ul class="list">
+				<li>+37529 231-47-27</li>
+				<li>yegor.lenkovets@gmail.com</li>
+				<li>Беларусь, г.Гомель</li>
+			</ul>
+		</div>
+		<div class="cards bg-yellow">
+			<h2>О себе</h2>
+			<p>
+				Возраст: 23 Хочу работать в IT-сфере, потомучто интересуюсь IT,
+				самостоятельно изучаю, нужны деньги. Буду рад стать частью команды
+				разработсиков.
+			</p>
+		</div>
+		<div class="cards bg-green">
+			<h2>Образование</h2>
+			<p>
+				2007-2012: Гомельский государственный технический университет
+				им.П.О.Сухого. Факультет автоматизированны систем. Кафедра
+				промышленной электроники
+			</p>
+		</div>
+		<div class="cards bg-red">
+			<h2>Опыт работы</h2>
+			<table class="table">
+				<thead>
+					<th>Период</th>
+					<th>Место</th>
+					<th>Должность</th>
+				</thead>
+				<tr>
+					<td>11.02.2013-11.02.2016</td>
+					<td>ЗАО Гомельлифт</td>
+					<td>Наладчик КиПИА</td>
+				</tr>
+				<tr>
+					<td>01.03.2016-н.время</td>
+					<td>ГЦ АСУ БЖД</td>
+					<td>Инженер-программис 1 категории</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="cards bg-yellow">
+			<h2>Языки</h2>
+			<p>Англияский</p>
+		</div>
+		<div class="cards bg-green">
+			<h2>Курсы</h2>
+			<p>Курсы Александра Лущенко по JavaScript</p>
+			<p>Курсы Александра Лущенко по PHP</p>
+		</div>
+		<div class="contact">
+			<h2>Связаться со мной</h2>
+			<form action="/">
+				<div class="row">
+					<div class="form-group">
+						<label for="name">Ваше имя:</label>
+						<input type="text" id="name" placeholder="Введите ваше имя..." />
+					</div>
+					<div class="form-group">
+						<label for="email">Ваш Email:</label>
+						<input type="email" id="email" placeholder="Введите email..." />
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="text">Ваше сообщение</label>
+					<textarea id="text" cols="15" rows="2"></textarea>
+				</div>
+				<input type="button" class="btn" value="Связаться!" />
+			</form>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+
+</html>
