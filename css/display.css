@@ -1,0 +1,49 @@
+.info {
+	display: flex;
+}
+.info-text {
+	margin-left: 20px;
+}
+.name,
+.input-text,
+.email,
+.input-email {
+	display: block;
+}
+.row {
+	display: flex;
+	margin-bottom: 20px;
+}
+.email,
+.input-email {
+	margin-left: 23px;
+}
+.name,
+.email {
+	margin-bottom: 15px;
+	color: #50504d;
+}
+.input-email,
+.input-text {
+	width: 320px;
+	background: burlywood;
+	border: none;
+	border-bottom: 1px solid rgb(161, 157, 157);
+	height: 30px;
+}
+.area,
+.input-textarea {
+	display: block;
+}
+.area {
+	color: #50504d;
+	margin-bottom: 15px;
+}
+.input-textarea {
+	background: burlywood;
+	border: none;
+	border-bottom: 1px solid rgb(161, 157, 157);
+	width: 100%;
+	padding: 0%;
+	font-family: serif;
+}
